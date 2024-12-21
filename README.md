@@ -53,23 +53,24 @@ This will add a new task to your task list.
 Update a task:
 
 ```bash
-./index.js update <task-id> "Buy groceries and cook dinner"`
+./index.js update <task-id> "Buy groceries and cook dinner"
 ```
 
 This will update the task with the specified ID.
 
 Delete a task:
 
-````bash
+```bash
 ./index.js delete <task-id>
 ```
 
 This will delete the task with the specified ID.
 
 Mark a task as "in-progress":
+
 ```bash
 ./index.js mark-in-progress <task-id>
-````
+```
 
 This will mark the task with the specified ID as "in-progress".
 
