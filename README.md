@@ -34,46 +34,67 @@ cd task-tracker-cli
 
 Run the following command to make the index.js file executable:
 
-bash
-`chmod +x index.js`
+```bash
+chmod +x index.js
+```
 
 ### 3. Run the Commands
 
 Now you're ready to use the Task Tracker CLI app. Here are the available commands:
 
 Add a new task:
-`./index.js add "Buy groceries"`
+
+```bash
+./index.js add "Buy groceries"
+```
 
 This will add a new task to your task list.
 
 Update a task:
-`./index.js update <task-id> "Buy groceries and cook dinner"`
+
+```bash
+./index.js update <task-id> "Buy groceries and cook dinner"`
+```
 
 This will update the task with the specified ID.
 
 Delete a task:
-`./index.js delete <task-id>`
+
+````bash
+./index.js delete <task-id>
+```
 
 This will delete the task with the specified ID.
 
 Mark a task as "in-progress":
-`./index.js mark-in-progress <task-id>`
+```bash
+./index.js mark-in-progress <task-id>
+````
 
 This will mark the task with the specified ID as "in-progress".
 
 Mark a task as "done":
-`./index.js mark-done <task-id>`
+
+```bash
+./index.js mark-done <task-id>
+```
 
 This will mark the task with the specified ID as "done".
 
 List all tasks:
-`./index.js list`
+
+```bash
+./index.js list
+```
 
 This will list all tasks.
 
 List tasks by status:
-`./index.js list done`
-`./index.js list todo`
-`./index.js list in-progress`
+
+```bash
+./index.js list done
+./index.js list todo
+./index.js list in-progress
+```
 
 These commands allow you to filter and list tasks based on their status (done, todo, or in-progress).
