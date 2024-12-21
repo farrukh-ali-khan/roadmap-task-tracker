@@ -1,0 +1,15 @@
+{
+  "name": "roadmap-task-tracker",
+  "version": "1.0.0",
+  "description": "A CLI task tracker",
+  "main": "task-tracker.js",
+  "bin": {
+    "task-cli": "./task-tracker.js"
+  },
+  "scripts": {
+    "start": "node task-tracker.js"
+  },
+  "keywords": [],
+  "author": "Farrukh",
+  "license": "ISC"
+}
